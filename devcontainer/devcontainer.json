@@ -1,0 +1,16 @@
+{
+  "name": "my-codespace",
+  "image": "ubuntu-20.04",
+  "extensions": [
+    {
+        "name": "google-cloud-sdk"
+    }
+  ],
+  "settings": {
+    "google-cloud": {
+        "service-account": {
+            "key-file": "service-account.json"
+        }
+    }
+  }
+}
