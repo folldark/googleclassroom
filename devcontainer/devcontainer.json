@@ -1,16 +1,18 @@
 {
-  "name": "my-codespace",
+  //幫我的設定命名
+  "name": "UseGoogleAPIs",
   "image": "ubuntu-20.04",
-  "extensions": [
-    {
-        "name": "google-cloud-sdk"
-    }
-  ],
-  "settings": {
-    "google-cloud": {
-        "service-account": {
-            "key-file": "service-account.json"
-        }
+  "remoteUser": "codespace",
+  "overrideCommand": "false",
+  //增加你想要的擴充套件
+  "customizations": 
+  {
+    "vscode":
+     {
+      "extensions":
+      [
+        "google-cloud-sdk"
+      ]
     }
   }
 }
