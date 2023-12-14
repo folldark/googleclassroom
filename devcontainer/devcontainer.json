@@ -10,9 +10,8 @@
     "vscode":
      {
       "extensions":
-      [
-        "google-cloud-sdk"
-      ]
+       [ 
+       ]
     }
   }
 }
